@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+
+# 虚拟环境
+venv/
+.venv/
+
+# 数据（不提交大文件）
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# 配置
+.env
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,12 @@
+# 核心依赖
+pandas>=2.0
+numpy>=1.24
+requests>=2.31
+beautifulsoup4>=4.12
+
+# 数据存储
+sqlalchemy>=2.0
+
+# 可视化（可选）
+matplotlib>=3.7
+plotly>=5.17
